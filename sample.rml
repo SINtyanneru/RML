@@ -1,0 +1,57 @@
+@title("サンプルテキスト")
+@description("説明")
+@author("るみ")
+
+# RumiMarkupLanguage
+るみが作った~~MarkDownのパクリ~~。
+MarkDownの不満点を直したもの。
+
+# 見出し1
+## 見出し2
+### 見出し3
+
+___
+↑水平線
+
+改行は
+そのまま
+改行。
+
+*斜体*
+**太字**
+***強調***
+~~打ち消し線~~
+__下線__
+
+行の中に画像を入れることは出来ないが、:emoji:を入れることはできる。
+
+行の中に[URL](https://rumi-room.net/)も入れれる。
+![これは画像](https://data.rumiserver.com/rumimisskey/file/original/f0fedb06-6eb7-417b-a897-0d856f19bdb5.webp)
+?[これは動画](https://data.rumiserver.com/rumimisskey/file/original/d4842703-1ab0-4f14-b202-2ed62e76a212.mp4)
+
+テーブル
+@table_init()
+@table_close()
+
+エスケープ\*\*テスト\*\*
+
+これは`インラインコード`です！
+`\`で囲うことで使うことが出来ます`
+
+```
+これはコードブロックです！
+```で囲うことで使うことが出来ます！
+```
+
+:::
+ノート
+:::
+
+!!!
+警告
+!!!
+
+- 列挙1
+- 列挙2
+- 列挙3
+- 列挙4
